@@ -2,7 +2,7 @@
 
 > Upload a customer-service transcript and AuditLens scores it against a configurable quality rubric, classifies defects, and generates STAR-format coaching feedback as clean, structured JSON.
 
-**Live demo:** _[add Hugging Face / Streamlit link here]_ · **Built by:** [Mohammed Abdul Najeeb](https://github.com/Najeeb-AI-bots)
+**Live demo:** _https://auditlens-najeeb.streamlit.app/_ · **Built by:** [Mohammed Abdul Najeeb](https://github.com/Najeeb-AI-bots)
 
 > 💡 Open-source demonstration of a multi-metric quality-audit system I built in production at Amazon. All transcripts and rules here are synthetic / illustrative.
 
