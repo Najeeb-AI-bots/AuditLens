@@ -1,0 +1,36 @@
+# AuditLens rubric — editable quality measures.
+# Each measure is scored Yes / No / N/A with a weight.
+measures:
+  - id: friendly
+    label: "Associate was Friendly"
+    description: "Warm, respectful, professional tone throughout the interaction."
+    weight: 1
+  - id: understandable
+    label: "Associate was Understandable"
+    description: "Clear, jargon-free communication the customer could follow."
+    weight: 1
+  - id: knowledgeable
+    label: "Associate was Knowledgeable"
+    description: "Demonstrated accurate product/policy knowledge; no misinformation."
+    weight: 2
+  - id: efficient
+    label: "Associate was Efficient"
+    description: "Resolved or progressed the issue without unnecessary delay or repetition."
+    weight: 2
+  - id: policy
+    label: "Agreed with Policy"
+    description: "Actions and advice were compliant with stated policy."
+    weight: 3
+
+# Defect categories (classification applied when a measure is scored No)
+defect_categories:
+  - CHO   # Customer Handling Opportunity
+  - PO    # Process Opportunity
+  - RGO   # Resolution Guidance Opportunity
+  - SPO   # System/Policy Opportunity
+
+severity_bands:
+  critical: 4   # score (weighted No's) >= 4
+  high: 3
+  medium: 2
+  low: 1
